@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.scroll-bar{
+    height: 100%;
+    width: px;
+    border-width: 1px;
+    font-family: sans-serif;
+    overflow: auto;
+
+}
+
+.main{
+    width: 100%;
+    background: url(https://e0.pxfuel.com/wallpapers/846/344/desktop-wallpaper-portfolio-thumbnail.jpg);
+    background-position: center;
+    background-size:cover;
+    height: 125vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .Wb{
+     width: 200px;
+     cursor: pointer;
+     margin-top: 1%;
+     margin-left: -1%;
+     
+
+
+}
+ul{
+    margin-top: -1%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(228, 23, 12);
+    margin-top: -3%;
+    transition: .4s ease;
+
+}
+
+ul li a:hover{
+    color: rgb(59, 230, 20);
+}
+
+.info{
+    margin-left: 7%;
+    margin-top: 6%;
+}
+
+.info h1{
+    font-size: 65px;
+    color: rgb(255, 250, 250);
+}
+
+.info h3{
+    font-size: 14px;
+    color: #fbfafa;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+.info span{
+    color: rgb(245, 9, 9);
+}
+
+.info a{
+    text-decoration: none;
+    font-size: small ;
+    color: #030303;
+    background: rgb(236, 236, 235);
+    margin: 26px 0;
+    padding: 10px 10px;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .4s ease;
+}
+
+.info a:hover{
+    background: rgb(237, 3, 3);
+}
+
+.image{
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    right: 300px;
+    bottom: 0%;
+}
+
+.image img{
+    position: absolute;
+    height: 60%;
+    left: 60%;
+    transform: translate(-25%);
+    bottom: 50%;
+    transition: left 2s ease;
+}
+
+.image:hover .viswa{
+    left: 55%;
+}
+.footercontainer{
+    width: 150px;
+    padding: 150px 150px 150px;
+    
+}
+
+.icons {
+    position: absolute;
+    right:500px;
+    display: contents;
+    width: 50px;
+}
+.icons a{
+    text-decoration: none;
+    color: #ec0101;
+    padding: 10px 16px;
+}
+.icons i{
+    color: #c60707;
+    font-size: 40px;
+    transition: .4s ease;
+    align-items: center;
+    left: 50%;
+}
+.icons i:hover{
+    color: rgb(241, 6, 230);
+}
